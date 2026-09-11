@@ -1,0 +1,481 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover {
+    opacity: 0.6;
+}
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* PG Glam Studio Brand */
+
+body {
+    background-color: #fff8f5;
+    color: #333;
+}
+
+header {
+    background-color: #2f1b2d;
+    color: white;
+}
+
+nav {
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #2f1b2d;
+}
+
+.hero {
+    background-color: #f6e6e1;
+}
+
+.button {
+    background-color: #2f1b2d;
+    color: white;
+}
+
+.button:hover {
+    background-color: #5a3455;
+}
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.services {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.service-card {
+    background-color: white;
+    width: 220px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 22px;
+}
+
+.service-card p {
+    line-height: 1.6;
+}
+.gallery {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.gallery-container img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f6e6e1;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.about .button {
+    margin-top: 25px;
+}
+.booking {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.booking h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.booking form {
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.booking label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.booking input,
+.booking select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.booking button {
+    margin-top: 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2f1b2d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.booking button:hover {
+    background-color: #5a3455;
+}
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #f6e6e1;
+}
+
+.contact h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    margin: 12px;
+    font-size: 18px;
+}
+footer {
+    background-color: #2f1b2d;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 8px;
+}
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-container img {
+        width: 90%;
+        max-width: 350px;
+    }
+
+}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 5px;
+}
+header {
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+.button {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 16px 35px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+nav a {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2f1b2d;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+.hero {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    max-width: 800px;
+    line-height: 1.2;
+}
+
+.hero p {
+    max-width: 650px;
+    line-height: 1.6;
+}
+.contact-info a {
+    color: #2f1b2d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.booking input:focus,
+.booking select:focus {
+    outline: none;
+    border-color: #2f1b2d;
+    box-shadow: 0 0 0 3px rgba(47, 27, 45, 0.1);
+}
+.booking button {
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.booking button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+section {
+    scroll-margin-top: 80px;
+}
+.gallery-item {
+    background-color: white;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item h3 {
+    margin: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: #2f1b2d;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+    color: #2f1b2d;
+}
+.booking textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+
+.booking textarea:focus {
+    outline: none;
+    border-color: #2f1b2d;
+    box-shadow: 0 0 0 3px rgba(47, 27, 45, 0.1);
+}
+#booking-message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.whatsapp-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 30px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 14px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-3px);
+}
+#booking-message {
+    min-height: 24px;
+    color: #2f1b2d;
+}
+.tiktok-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tiktok-link:hover {
+    text-decoration: underline;
+}
