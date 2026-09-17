@@ -51,22 +51,7 @@ The booking form is connected to **Formspree** for receiving appointment submiss
 - Git
 - GitHub
 - GitHub Pages
-
-## Project Structure
-```text
-PD-Glam-Studio/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── images/
-    ├── Wigs Making.jpeg
-    ├── Frontal installation.jpeg
-    ├── Lash extension.jpeg
-    ├── Make up.jpeg
-    └── Nails.jpeg
-
-    🌐 Live Website
+🌐 Live Website
 https://cudjoeeben28-dot.github.io/PG-Glam-Studio/
 
 **Deployment**
@@ -86,3 +71,19 @@ Website analytics
 
 ** License**
 This project is a business website for PD Glam Studio. Website content, branding and business materials are intended for the studio's use.
+
+## Project Structure
+```text
+PD-Glam-Studio/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+    ├── Wigs Making.jpeg
+    ├── Frontal installation.jpeg
+    ├── Lash extension.jpeg
+    ├── Make up.jpeg
+    └── Nails.jpeg
+
+    
